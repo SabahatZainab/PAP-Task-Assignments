@@ -1,0 +1,24 @@
+/*A callback is a function passed as an argument to another function
+This technique allows a function to call another function
+A callback function can run after another function has finished*/
+
+/*Heap: It is used to store objects and functions in JavaScript. 
+The engine doesn't allocate a fixed amount of memory.
+JavaScript automatically allocates memory when objects are created and frees it when not in use anymore*/
+
+Memory Life Cycle: Irrespective of programming language, the memory life cycle follows the following stages:
+
+Allocates the memory we need: JavaScript allocates memory to the object created.
+Use the allocated memory.
+Release the memory when not in use: Once the allocated memory is released, it is used for other purposes. It is handled by a JavaScript engine.
+
+avaScript engines have two places to store data: 
+
+Stack: It is a data structure used to store static data. Static data refers to data whose size is known by the engine during compile time  known as static memory allocation.
+
+Heap: It is used to store objects and functions in JavaScript. The engine doesn’t allocate a fixed amount of memory. Instead, it allocates more space as required.
+
+Functions running in parallel with other functions are called asynchronous
+
+A good example is JavaScript setTimeout()
+
