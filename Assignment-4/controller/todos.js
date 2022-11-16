@@ -9,7 +9,7 @@ exports.get = (req, res) => {
     if(args.delete){
      responseApi(res, 400, {success: false, message: 'Task not found'});
     }else{
-      responseApi(res, 200, {success: true, message: 'Task found', todos: [db.todos]}); 
+      responseApi(res, 200, {success: true, message: 'Task found', todos: [args]}); 
     
   }
   }
